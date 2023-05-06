@@ -1,0 +1,35 @@
+[package]
+name = "final_project"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+byteorder = "1.4.3"
+petgraph = "0.5.1"
+rand = "0.8.4"
+gnuplot = "0.0.37"
+plotters = "0.3.4"
+statrs = "0.16.0"
+regex = "1.8.1"
+
+[[bin]] 
+name = "prep"
+path = "src/prep.rs"
+
+[[bin]]
+name = "degree_dist"
+path = "src/degree_dist.rs"
+
+[[bin]]
+name = "density"
+path = "src/density.rs"
+
+[[bin]]
+name = "centrality"
+path = "src/centrality.rs"
+
+[[bin]]
+name = "distance"
+path = "src/distance.rs"
