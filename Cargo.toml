@@ -16,20 +16,20 @@ regex = "1.8.1"
 
 [[bin]] 
 name = "prep"
-path = "src/prep.rs"
+path = "prep.rs"
 
 [[bin]]
 name = "degree_dist"
-path = "src/degree_dist.rs"
+path = "degree_dist.rs"
 
 [[bin]]
 name = "density"
-path = "src/density.rs"
+path = "density.rs"
 
 [[bin]]
 name = "centrality"
-path = "src/centrality.rs"
+path = "centrality.rs"
 
 [[bin]]
 name = "distance"
-path = "src/distance.rs"
+path = "distance.rs"
